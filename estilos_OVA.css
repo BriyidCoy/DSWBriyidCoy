@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #F0B429;
+}
+
+#header{
+    margin:auto;
+    widows: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.main li a {
+    background-color: #005883;
+    color: #F47920;
+    text-decoration: none;
+    display: block;
+    padding:15px 20px;
+}
+
+.main li a:hover{
+    background-color:#43C7F4;
+}
+
+.main >li{
+  float: left;
+}
+
+.main li ul {
+    display:none;
+    position:absolute;
+    min-width: 140px;
+}
+
+.main li:hover > ul{
+    display: block;
+}
+
+
+
