@@ -1,6 +1,44 @@
 *{
     margin: 0px;
-    padding: 0px;
+    padding: 2px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Heavy';
+    font-size:36px;
+    text-align: center;
+    color: #005883;
+}
+
+h2{
+    font-family: 'Franklin Gothic Book';
+    text-align: left;
+    color:#005883;
+}
+
+h4{
+    font-family: 'Franklin Gothic Book';
+    text-align: justify;
+    line-height: 25px;
+}
+
+#Encabezado{
+    background-color: #ffffff;
+}
+
+.header{
+    margin: auto;
+    background-color: #ffffff; 
+    height: auto;
+    width: auto;
+    border-collapse: collapse;    
+}
+
+.header td{
+    color: #F47920;
+    font-family: 'Franklin Gothic Heavy';
+    font-size: 40px;
+    text-align: left;
 }
 
 body{
@@ -8,9 +46,11 @@ body{
 }
 
 #header{
-    margin:auto;
-    widows: 1000px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px ;
+    margin-left: 220px;
+    margin-right: 100px;
 }
 
 ul{
@@ -22,7 +62,7 @@ ul{
     color: #F47920;
     text-decoration: none;
     display: block;
-    padding:15px 20px;
+    padding:10px 50px;
 }
 
 .main li a:hover{
@@ -43,5 +83,99 @@ ul{
     display: block;
 }
 
+#twitter{
+   
+    margin: auto;
+    height: 300px;
+    width: 300px;  
+    border-collapse: collapse;
+}
 
+img{
+    max-width: 400px;
+    max-height: 400px;
+    margin: auto;
+}
 
+.Datos{
+    margin: auto;
+    background-color: #ffffff;  
+    border-color: #F47920;
+    height: auto;
+    width: auto;  
+    border-collapse: collapse;
+}
+
+.Datos td b{
+    color: #005883;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.Datos td{
+    color: #000000;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.frases{
+    text-align: center;
+    font-family: 'Franklin Gothic Book Italic';
+    font-size: 28px;
+}
+
+.Programas{
+    margin: auto;
+    background-color: #ffffff;  
+    border-color: #F47920;
+    height: 300px;
+    width: 300px;  
+    border-collapse: collapse;
+}
+
+.Programas td b{
+    color: #005883;
+    font-family: 'Franklin Gothic Heavy', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.Programas td{
+    color: #000000;
+    font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+
+.Cajas_texto{
+    background-color:#B3B3B3;
+}
+
+.texto_columnas{
+    column-count: 3;
+    background-color:#005883;
+}
+
+.texto_columnas h2{
+    color: #F47920;
+}
+
+.encabezados_div{
+    background-color:#005883
+}
+
+.encabezados_div h2{
+    color: #F47920;
+    text-align: center;
+}
+
+.Citas{
+    background-color: #ffffff;
+}
+
+.Citas h3 {
+    color: #F47920;
+    font-family: 'Franklin Gothic Heavy'
+}
+
+.Imagen_pie h4 {
+    text-align: center; 
+}
