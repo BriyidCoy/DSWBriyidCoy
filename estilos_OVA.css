@@ -179,3 +179,21 @@ img{
 .Imagen_pie h4 {
     text-align: center; 
 }
+
+.Recursoweb_columnas{
+    column-count: 2;
+    background-color:#005883;
+}
+
+.Recursoweb_columnas h4{
+    text-align: center;
+}
+
+.Recursotexto_columnas {
+    column-count: 2;
+    background-color:#005883;
+}
+
+.Recursotexto_columnas h4{
+    text-align: left;
+}
