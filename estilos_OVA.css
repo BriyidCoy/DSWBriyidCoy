@@ -62,7 +62,7 @@ ul{
     color: #FFFFFF;
     text-decoration: none;
     display: block;
-    padding:10px 50px;
+    padding:10px 40px;
 }
 
 .main li a:hover{
@@ -76,7 +76,7 @@ ul{
 .main li ul {
     display:none;
     position:absolute;
-    min-width: 140px;
+    min-width: 100px;
 }
 
 .main li:hover > ul{
@@ -196,4 +196,44 @@ img{
 
 .Recursotexto_columnas h4{
     text-align: left;
+}
+
+form {
+    border-color: royalblue;
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size:17px;
+    border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#botón{
+    background: brown;
+    color: #dfdddd;
+    padding: 20px;
+}
+
+#botón:hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    form{
+        width:100%;
+    }
 }
