@@ -35,14 +35,14 @@ h4{
 }
 
 .header td{
-    color: #F47920;
+    color: #005883;
     font-family: 'Franklin Gothic Heavy';
     font-size: 40px;
     text-align: left;
 }
 
 body{
-    background-color: #F0B429;
+    background-color: #e2b7f3; 
 }
 
 #header{
@@ -59,14 +59,14 @@ ul{
 
 .main li a {
     background-color: #005883;
-    color: #F47920;
+    color: #FFFFFF;
     text-decoration: none;
     display: block;
     padding:10px 50px;
 }
 
 .main li a:hover{
-    background-color:#43C7F4;
+    background-color:#000000;
 }
 
 .main >li{
@@ -146,7 +146,7 @@ img{
 }
 
 .Cajas_texto{
-    background-color:#B3B3B3;
+    background-color:#dfdddd;
 }
 
 .texto_columnas{
