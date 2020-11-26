@@ -6,5 +6,4 @@
     $Mensaje = $_POST["Mensaje"];
     $Contenido = "Nombre:". $Nombre. "\nCorreo:". $Correo_electrónico. "\nTeléfono:". $Teléfono. "\nMensaje". $Mensaje;
     mail($Destino, "Contacto git", $Contenido);
-    header("Gracias");
 ?>
